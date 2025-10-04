@@ -4,9 +4,10 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
 # --- CORRECTED: Import order and added modules ---
-from modules.blueprint_parser import parse_blueprint
-from modules.carbon_calculator import calculate_carbon
-from modules.recommender import suggest_reductions
+from backend.modules.blueprint_parser import parse_blueprint
+from backend.modules.carbon_calculator import calculate_carbon
+from backend.modules.recommender import suggest_reductions
+
 
 # --- CORRECTED: Point static folder to the 'build' directory ---
 app = Flask(__name__, static_folder="../frontend/build", static_url_path="/")
