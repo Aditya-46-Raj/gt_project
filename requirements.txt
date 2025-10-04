@@ -1,3 +1,7 @@
+
 Flask
-Flask-Cors
+flask-cors
 gunicorn
+werkzeug
+pdfplumber
+PyPDF2
