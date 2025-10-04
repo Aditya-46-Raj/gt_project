@@ -1,0 +1,10 @@
+{
+  "concrete": 0.8,
+  "steel": 2.0,
+  "wood": 0.2,
+  "glass": 1.5,
+  "general construction": 0.5,
+  "recycled steel": 0.5,
+  "mass timber": 0.15,
+  "bamboo": 0.1
+}
