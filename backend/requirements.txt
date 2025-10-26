@@ -1,3 +1,22 @@
-Flask
-Flask-Cors
-gunicorn
+# Flask Web Framework
+Flask==3.1.0
+Flask-CORS==0.10.1
+
+# Security & File Handling
+Werkzeug==3.1.3
+
+# PDF Processing
+pdfplumber==0.11.4
+
+# Data Processing
+Pillow==11.1.0
+
+# Configuration
+python-dotenv==1.1.0
+
+# Optional: For better error handling
+MarkupSafe==3.0.2
+Jinja2==3.1.6
+itsdangerous==2.2.0
+click==8.1.7
+blinker==1.9.0
